@@ -64,4 +64,26 @@ body
 label {
   display: block;
   margin: 0.5rem 0;
+  font-size: 20px;
 }
+
+
+ input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px; /* Espaçamento entre os campos */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Evita que padding aumente a largura total */
+  min-height: 2em;
+}
+
+
+.radio,
+.checkbox {
+  display: inline-block;
+  width: unset;
+  margin: 0 0.5em 0 0;
+  min-height: unset;
+}
+

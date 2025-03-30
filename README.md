@@ -30,10 +30,10 @@ Construir um aplicativo que seja funcionalmente semelhante a [este formulário d
 - [x] Para os campos de entrada de nome, e-mail e número, deve haver elementos `<label>` correspondentes no formulário, descrevendo a finalidade de cada campo com os seguintes atributos `id="name-label"`, `id="email-label"` e `id="number-label"`.  
 - [x] Os campos de entrada de nome, e-mail e número devem conter um texto de espaço reservado (`placeholder`) que forneça uma descrição ou instruções.  
 - [x] Dentro do formulário, deve haver um menu suspenso (`<select>`) com o atributo `id="dropdown"` e pelo menos duas opções para escolher.  
-- [ ] Dentro do formulário, deve haver um grupo de pelo menos dois botões de rádio (`<input type="radio">`), agrupados pelo atributo `name`.  
-- [ ] Dentro do formulário, deve haver uma série de caixas de seleção (`<input type="checkbox">`), cada uma com um atributo `value`.  
-- [ ] Dentro do formulário, deve haver um campo de texto (`<textarea>`) para comentários adicionais.  
-- [ ] Dentro do formulário, deve haver um botão com o atributo `id="submit"` para enviar as entradas.  
+- [x] Dentro do formulário, deve haver um grupo de pelo menos dois botões de rádio (`<input type="radio">`), agrupados pelo atributo `name`.  
+- [x] Dentro do formulário, deve haver uma série de caixas de seleção (`<input type="checkbox">`), cada uma com um atributo `value`.  
+- [x] Dentro do formulário, deve haver um campo de texto (`<textarea>`) para comentários adicionais.  
+- [x] Dentro do formulário, deve haver um botão com o atributo `id="submit"` para enviar as entradas.  
 
 ### Conclusão  
 
