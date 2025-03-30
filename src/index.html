@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário de Pesquisa</title>
+</head>
+<body>
+    <h1 id="title">Formulário de Pesquisa de Séries</h1>
+    
+    <p id="description">Contribua para o projeto de pesquisa sobre séries de TV indicando sua série favorita.</p>
+    
+    <form id="survey-form">
+        <label for="name" id="name-label">Nome</label>
+        <input type="text" name="name" id="name"
+                placeholder="Digite seu nome">
+        
+        <label for="email" id="email-label">Email</label>
+        <input type="email" name="email" id="email"
+                placeholder="Digite seu email">
+        
+        <label for="tvshow" id="tvshow-label">Qual seria sua série favorita?</label>
+        <input type="text" name="tvshow" id="tvshow">
+        
+        <label for="dropdown" id="dropdown-label">Gênero</label>
+        <select name="dropdown" id="dropdown">
+            <option value="">Selecione uma opção</option>
+            <option value="1">Drama</option>
+            <option value="2">Aventura</option>
+            <option value="3">Romance</option>
+            <option value="4">Terror</option>
+            <option value="5">Suspense</option>
+            <option value="6">Ação</option>
+            <option value="7">Comedia</option>
+            <option value="8">Outro</option>
+        </select>
+        
+        <label for="number" id="number-label">Rating</label>
+        <input type="number" name="number" id="number" 
+               min="1" max="5"
+               placeholder="Dê uma nota de 1 a 5">
+        
+        
+        
+        
+        
+    </form>
+    
+</body>
+</html>
